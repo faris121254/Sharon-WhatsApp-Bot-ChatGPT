@@ -72,7 +72,7 @@ async function connectToWhatsApp() {
                 //Dapatkan Info Pesan dari Grup atau Bukan 
                 //Dan Pesan Menyebut bot atau Tidak
                 const isMessageFromGroup = senderNumber.includes("@g.us");
-                const isMessageMentionBot = incomingMessages.includes("@6282126083338");
+                const isMessageMentionBot = incomingMessages.includes("@0666937323");
 
                 //Tampilkan nomer pengirim dan isi pesan
                 console.log("Nomer Pengirim:", senderNumber);
